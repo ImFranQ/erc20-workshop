@@ -34,3 +34,13 @@ module.exports = {
 ### Test contract
 
 `truffle compile ./test/my_token_coin.sol`
+
+### Deploy to rinkeby 
+
+* Create file environment `cp .env.example .env`
+* Set `.env` values
+* Run `truffle migrate --network rinkeby`
+
+### Project Exmaple
+
+See the contract example [here](https://rinkeby.etherscan.io/token/0xF0dE48c6D6500D8131c318D98AEE453d5818E781) 
